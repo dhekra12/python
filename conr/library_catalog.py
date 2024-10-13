@@ -2,7 +2,7 @@ import os
 
 # Dictionary to store books with ISBN as the key
 library_catalog = {}
-library_catalog = []
+
 
 def clear_terminal():
 
