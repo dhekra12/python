@@ -2,8 +2,10 @@ import os
 
 # Dictionary to store books with ISBN as the key
 library_catalog = {}
+library_catalog = []
 
 def clear_terminal():
+
     os.system('cls' if os.name == 'nt' else 'clear')
 
 def add_book():
